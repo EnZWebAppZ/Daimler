@@ -1,0 +1,31 @@
+
+<div class="card">
+  <div class="card-body">
+    <h6>Name</h6>
+    <input type="text" class="form-control"> {{userDetails.name}}
+  </div>
+</div>
+<div class="card">
+  <div class="card-body">
+    <h6>User Type</h6>
+    <ng-select [items]="userTypeItems" class="p-1">{{userDetails.userType}}</ng-select>  
+  </div>
+</div>
+<div class="card">
+  <div class="card-body">
+    <h6>Group</h6>
+    <ng-select [items]="groupItems" class="p-1">{{userDetails.group}}</ng-select>  
+  </div>
+</div>
+<div class="card">
+  <div class="card-body">
+    <h6>Dealer Outlet</h6>
+    <ng-select [items]="dealerOutletItems" class="p-1">{{userDetails.dealerOutlet}}</ng-select>  
+  </div>
+</div>
+<div class="card">
+  <div class="card-body">
+    <h6>Dealer Company</h6>
+    <ng-select [items]="dealerCompanyItems" class="p-1">{{userDetails.dealerCompany}}</ng-select>  
+  </div>
+</div>

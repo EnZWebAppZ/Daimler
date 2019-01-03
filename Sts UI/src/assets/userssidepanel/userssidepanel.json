@@ -1,0 +1,26 @@
+[
+  {
+    "code": "CONSLT",
+    "name": "Consultant"
+  },
+  {
+    "code": "SM",
+    "name": "Sales Manager"
+  },
+  {
+    "code": "MSU",
+    "name": "MSU"
+  },
+  {
+    "code": "MGR",
+    "name": "Manager"
+  },
+  {
+    "code": "GSU",
+    "name": "GSU"
+  },
+  {
+    "code": "ADMIN",
+    "name": "Admin"
+  }
+]

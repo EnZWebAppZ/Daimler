@@ -1,0 +1,32 @@
+[
+    {
+      "itemId": 1,
+      "label": "Active Sales Query",
+      "icon" : "work",
+      "link": "/"
+    },
+    {
+        "itemId": 2,
+        "label": "Stocks",
+        "icon" : "category",
+        "link": "/stocks"
+      },
+      {
+        "itemId": 3,
+        "label": "Reports",
+        "icon" : "assessment",
+        "link": "/reports"
+      },
+      {
+        "itemId": 4,
+        "label": "Users",
+        "icon" : "supervisor_account",
+        "link": "/tables/smart"
+      },
+      {
+        "itemId": 5,
+        "label": "Chat",
+        "icon" : "chat",
+        "link": "/chat"
+      }
+]

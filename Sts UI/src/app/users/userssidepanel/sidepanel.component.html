@@ -1,0 +1,45 @@
+<div>
+    <h5 class="mt-3"><b>User Type</b></h5>
+    <ng-select [items]="userTypes" [multiple]="true" bindLabel="name" [closeOnSelect]="false" bindValue="code"
+        [(ngModel)]="selectedUserTypes">
+        <ng-template ng-option-tmp let-item="item" let-item$="item$" let-index="index">
+            <input id="item-{{index}}" type="checkbox" [ngModel]="item$.selected" /> {{item.name}}
+        </ng-template>
+    </ng-select>
+</div>
+<div>
+        <h5 class="mt-3"><b>Location</b></h5>
+        <ng-select [items]="locations" [multiple]="true" bindLabel="name" [closeOnSelect]="false" bindValue="code"
+            [(ngModel)]="selectedLocations">
+            <ng-template ng-option-tmp let-item="item" let-item$="item$" let-index="index">
+                <input id="item-{{index}}" type="checkbox" [ngModel]="item$.selected" /> {{item.name}}
+            </ng-template>
+        </ng-select>
+</div>
+<div>
+        <h5 class="mt-3"><b>Group</b></h5>
+        <ng-select [items]="groups" [multiple]="true" bindLabel="name" [closeOnSelect]="false" bindValue="code"
+            [(ngModel)]="selectedGroups">
+            <ng-template ng-option-tmp let-item="item" let-item$="item$" let-index="index">
+                <input id="item-{{index}}" type="checkbox" [ngModel]="item$.selected" /> {{item.name}}
+            </ng-template>
+        </ng-select>
+</div>
+<div>
+        <h5 class="mt-3"><b>Dealer Outlets</b></h5>
+        <ng-select [items]="dealerOutlets" [multiple]="true" bindLabel="name" [closeOnSelect]="false" bindValue="code"
+            [(ngModel)]="selectedDealerOutlets">
+            <ng-template ng-option-tmp let-item="item" let-item$="item$" let-index="index">
+                <input id="item-{{index}}" type="checkbox" [ngModel]="item$.selected" /> {{item.name}}
+            </ng-template>
+        </ng-select>
+</div>
+<div>
+        <h5 class="mt-3"><b>Dealer Companies</b></h5>
+        <ng-select [items]="dealerCompanies" [multiple]="true" bindLabel="name" [closeOnSelect]="false" bindValue="code"
+            [(ngModel)]="selectedDealerCompanies">
+            <ng-template ng-option-tmp let-item="item" let-item$="item$" let-index="index">
+                <input id="item-{{index}}" type="checkbox" [ngModel]="item$.selected" /> {{item.name}}
+            </ng-template>
+        </ng-select>
+</div>

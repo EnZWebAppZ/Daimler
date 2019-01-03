@@ -1,0 +1,25 @@
+<!-- <table id="data_table" datatable [dtOptions]="dtOptions" class="display table responsive no-wrap table-dark table-hover"></table> -->
+
+<!-- <table datatable  [dtOptions]="dtOptions" class="display table responsive no-wrap table-dark table-hover" *ngIf="this.temp_var"> -->
+  <table datatable [dtOptions]="dtOptions" class="display table responsive no-wrap table-dark table-hover" >   
+  <thead>
+      <tr>
+        <th>Name</th>
+        <th>User Type</th>
+        <th>Group</th>
+        <th>Dealer Outlet</th>
+        <th>Dealer Company</th>
+        <th>Action</th>       
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let rec of this.usersData">
+        <td>{{rec.name}}</td>
+        <td>{{rec.userType}}</td>
+        <td>{{rec.group}}</td>
+        <td>{{rec.dealerOutlet}}</td>
+        <td>{{rec.dealerCompany}}</td>
+        <td><button class="btn  btn-just-icon btn-round btn-light"><i class="material-icons">edit</i></button></td>
+      </tr>
+    </tbody>
+  </table>
