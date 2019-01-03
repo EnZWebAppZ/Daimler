@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { DashboardComponent } from './dashboard.component';
 import { NavbarComponent } from '../navbar/navbar.component';
+import { NavbarNotificationComponent } from '../navbar/notification/navbar-notification.component';
 import { SidebarComponent } from '../sidebar/sidebar.component';
 import { FooterComponent } from '../footer/footer.component';
 import { DashboardHomeComponent } from './dashboard-home/dashboard-home.component';
@@ -18,6 +19,7 @@ import { StatsComponent } from './stats/stats.component';
   ],
   declarations: [
     NavbarComponent,
+    NavbarNotificationComponent,
     SidebarComponent,
     FooterComponent,
     DashboardComponent,

@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { CommonService } from '@shared/services/common.service';
+import { NavbarNotificationComponent } from './notification/navbar-notification.component';
 
 @Component({
   selector: 'app-navbar',
@@ -8,7 +9,6 @@ import { CommonService } from '@shared/services/common.service';
 })
 
 export class NavbarComponent {
-
   constructor( public cmnSrv: CommonService) { }
 
 }
