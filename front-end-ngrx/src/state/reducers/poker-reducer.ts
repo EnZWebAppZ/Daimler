@@ -28,7 +28,7 @@ export function playerLayoutReducer(state: Layouts.PlayerLayoutState = initialLa
     case Actions.ActionTypes.InitializeLayout:
       let newArrC: Layouts.PlayerLayoutState = {
         colors: ["red", "cyan", "indigo", "green", "blue"],
-        icons: ["hand-scissors-o", "hand-rock-o", "hand-spock-o", "hand-pointer-o"]
+        icons: ["hand-scissors-o", "hand-rock-o", "hand-spock-o", "hand-pointer-o", "thumbs-o-up"]
       };
       console.log('Layout initialized', newArrC);
       return newArrC;
