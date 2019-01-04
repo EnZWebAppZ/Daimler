@@ -1,0 +1,11 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"git.alwaysShowStagedChangesResourceGroup": true,
+		"git.autofetch": true
+	}
+}
